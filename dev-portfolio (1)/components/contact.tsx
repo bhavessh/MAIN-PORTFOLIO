@@ -55,8 +55,8 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email",
-      value: "bhavesh.jain@example.com",
-      link: "mailto:bhavesh.jain@example.com",
+      value: "jbhavesh.in@gmail.com",
+      link: "mailto:jbhavesh.in@gmail.com",
     },
     {
       icon: Phone,
@@ -67,7 +67,7 @@ export default function Contact() {
     {
       icon: MapPin,
       title: "Location",
-      value: "Bangalore, India",
+      value: "Rajasthan, India",
       link: "https://maps.google.com/?q=Bangalore,India",
     },
   ]
@@ -132,7 +132,7 @@ export default function Contact() {
               </p>
               <div className="flex space-x-4">
                 <motion.a
-                  href="https://github.com/"
+                  href="https://github.com/bhavessh/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-slate-200 dark:bg-slate-800 rounded-full text-slate-700 dark:text-slate-300 hover:bg-violet-600 hover:text-white dark:hover:bg-violet-600 transition-colors"
@@ -144,7 +144,7 @@ export default function Contact() {
                   </svg>
                 </motion.a>
                 <motion.a
-                  href="https://linkedin.com/"
+                  href="https://www.linkedin.com/in/bhavessh/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-slate-200 dark:bg-slate-800 rounded-full text-slate-700 dark:text-slate-300 hover:bg-violet-600 hover:text-white dark:hover:bg-violet-600 transition-colors"
@@ -156,7 +156,7 @@ export default function Contact() {
                   </svg>
                 </motion.a>
                 <motion.a
-                  href="https://twitter.com/"
+                  href="https://x.com/bhavessh_in"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-slate-200 dark:bg-slate-800 rounded-full text-slate-700 dark:text-slate-300 hover:bg-violet-600 hover:text-white dark:hover:bg-violet-600 transition-colors"
@@ -168,7 +168,7 @@ export default function Contact() {
                   </svg>
                 </motion.a>
                 <motion.a
-                  href="https://instagram.com/"
+                  href="https://instagram.com/bhavessh_in"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-slate-200 dark:bg-slate-800 rounded-full text-slate-700 dark:text-slate-300 hover:bg-violet-600 hover:text-white dark:hover:bg-violet-600 transition-colors"
@@ -227,7 +227,7 @@ export default function Contact() {
                           id="email"
                           name="email"
                           type="email"
-                          placeholder="john@example.com"
+                          placeholder="your@example.com"
                           value={formState.email}
                           onChange={handleChange}
                           required
