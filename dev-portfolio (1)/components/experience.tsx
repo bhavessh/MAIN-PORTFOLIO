@@ -12,26 +12,26 @@ export default function Experience() {
 
   const experiences = [
     {
-      title: "Software Development Intern",
-      company: "Tech Innovations Inc.",
+      title: "Software Development Training",
+      company: "GFG",
       location: "Remote",
-      period: "May 2023 - Aug 2023",
+      period: "May 2024 - Aug 2024",
       description:
         "Developed and maintained web applications using React and Node.js. Collaborated with the team to implement new features and fix bugs.",
     },
     {
       title: "Web Development Intern",
       company: "Digital Solutions Ltd.",
-      location: "Bangalore, India",
-      period: "Dec 2022 - Feb 2023",
+      location: "Jaipur, India",
+      period: "Dec 2024 - Feb 2025",
       description:
-        "Assisted in the development of responsive websites. Worked with HTML, CSS, and JavaScript to create user-friendly interfaces.",
+        "Assisted in the development of responsive websites. Worked with MERN,Querbernatives to create user-friendly interfaces.",
     },
     {
       title: "Open Source Contributor",
       company: "Various Projects",
       location: "Remote",
-      period: "Jan 2022 - Present",
+      period: "Jan 2023 - Present",
       description:
         "Actively contribute to open-source projects. Fixed bugs and implemented new features in various JavaScript and Python repositories.",
     },
@@ -66,7 +66,7 @@ export default function Experience() {
           </h2>
           <div className="w-20 h-1 bg-violet-600 mx-auto mb-8"></div>
           <p className="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-            My professional journey and the experiences that have shaped my skills and knowledge.
+             Journey and experiences have shaped my skills and knowledge.
           </p>
         </motion.div>
 
