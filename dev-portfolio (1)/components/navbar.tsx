@@ -82,7 +82,7 @@ export default function Navbar() {
               transition={{ duration: 0.5 }}
               onClick={(e) => handleNavClick(e, "#home")}
             >
-              Bhavesh<span className="text-violet-600">.</span>
+              beown<span className="text-violet-600">.</span>
             </motion.div>
           </Link>
 
