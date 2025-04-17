@@ -63,17 +63,19 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
-              Software Developer & BTech Student
+              Software Developer 
             </h3>
             <p className="text-slate-600 dark:text-slate-400 mb-6">
-              I'm a passionate software developer and 3rd year BTech student with a strong foundation in both frontend
-              and backend technologies. I enjoy creating efficient, scalable, and user-friendly applications that solve
-              real-world problems.
+              Hey, I'm Bhavesh Jain — a Software Developer with a passion for clean code, thoughtful design, and meaningful user experiences.
+
+Currently pursuing my Bachelor's in Computer Science, I specialize in building scalable web applications, intuitive user interfaces, and turning ideas into functional products. Whether it’s designing robust backend systems or crafting pixel-perfect frontend views, I love solving real-world problems through code.
             </p>
             <p className="text-slate-600 dark:text-slate-400 mb-8">
-              My journey in tech began with a curiosity about how digital products work, which led me to pursue a degree
-              in technology. I'm constantly learning and expanding my skill set to stay current with the latest industry
-              trends and best practices.
+             But beyond the logic and syntax, I’m also a storyteller — someone who believes that every line of code tells a story. From contributing to team projects to building personal tools, I approach software like I approach life: with curiosity, creativity, and a hunger to grow.
+
+I’m actively exploring full-stack development, system design, and emerging tech like AR/VR. Open to collaborations, internships, and new challenges that push me out of my comfort zone.
+
+Let’s build something cool together!
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
