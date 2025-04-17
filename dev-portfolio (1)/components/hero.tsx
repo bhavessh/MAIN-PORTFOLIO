@@ -38,15 +38,16 @@ export default function Hero() {
               <h1 className="text-4xl md:text-6xl font-bold text-slate-900 dark:text-white mb-4">
                 Hi, I'm{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-cyan-500">
-                  Bhavesh Jain
+                  Bhavesh
                 </span>
               </h1>
               <h2 className="text-xl md:text-2xl text-slate-700 dark:text-slate-300 mb-6">
-                <span className="font-medium">3rd Year BTech Student</span> & Software Developer
+                <span className="font-medium">Software Developer </span> & Data Analyst
               </h2>
               <p className="text-slate-600 dark:text-slate-400 text-lg mb-8 max-w-xl">
-                I build exceptional digital experiences with modern technologies. Passionate about creating elegant
-                solutions to complex problems.
+                 I build thoughtful digital experiences using modern tech stacks.
+                With a deep love for clean code and clever solutions,
+                I enjoy turning complex problems into elegant, user-friendly products.
               </p>
 
               <div className="flex flex-wrap gap-4">
@@ -67,7 +68,7 @@ export default function Hero() {
 
               <div className="flex gap-4 mt-8">
                 <motion.a
-                  href="https://github.com/"
+                  href="https://github.com/bhavessh/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-violet-600 dark:hover:text-violet-400 transition-colors"
@@ -77,7 +78,7 @@ export default function Hero() {
                   <Github className="h-5 w-5" />
                 </motion.a>
                 <motion.a
-                  href="https://linkedin.com/"
+                  href="https://linkedin.com/bhavessh/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-violet-600 dark:hover:text-violet-400 transition-colors"
@@ -87,7 +88,7 @@ export default function Hero() {
                   <Linkedin className="h-5 w-5" />
                 </motion.a>
                 <motion.a
-                  href="mailto:contact@example.com"
+                  href="mailto:jbhavesh.in@gmail.com"
                   className="p-2 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-violet-600 dark:hover:text-violet-400 transition-colors"
                   whileHover={{ y: -5, scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
